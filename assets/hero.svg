@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1220"></stop>
+      <stop offset="1" stop-color="#0f1b33"></stop>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7dd3fc" stop-opacity="0.45"></stop>
+      <stop offset="1" stop-color="#a7f3d0" stop-opacity="0.30"></stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#sky)"></rect>
+  <circle cx="280" cy="220" r="230" fill="url(#glow)"></circle>
+  <circle cx="1250" cy="180" r="260" fill="url(#glow)"></circle>
+
+  <!-- Distant mountains -->
+  <path d="M0 700 L240 520 L420 610 L640 430 L820 540 L1020 420 L1240 580 L1460 470 L1600 560 L1600 1000 L0 1000 Z" fill="#0a1020" opacity="0.75"></path>
+
+  <!-- Main ridge -->
+  <path d="M0 820 L220 640 L380 720 L520 590 L700 760 L860 520 L1020 680 L1200 560 L1360 700 L1600 600 L1600 1000 L0 1000 Z" fill="#0a0f1d" opacity="0.9"></path>
+
+  <!-- Snow caps -->
+  <path d="M220 640 L280 690 L380 720 L320 650 Z" fill="#dbeafe" opacity="0.9"></path>
+  <path d="M520 590 L585 655 L700 760 L610 615 Z" fill="#dbeafe" opacity="0.9"></path>
+  <path d="M860 520 L930 600 L1020 680 L950 560 Z" fill="#dbeafe" opacity="0.9"></path>
+  <path d="M1200 560 L1265 625 L1360 700 L1285 585 Z" fill="#dbeafe" opacity="0.9"></path>
+
+  <!-- Subtle wind lines -->
+  <path d="M250 300 C380 270, 520 310, 650 280" stroke="#7dd3fc" stroke-opacity="0.18" stroke-width="6" fill="none" stroke-linecap="round"></path>
+  <path d="M420 360 C560 330, 700 370, 860 340" stroke="#a7f3d0" stroke-opacity="0.14" stroke-width="6" fill="none" stroke-linecap="round"></path>
+  <path d="M980 300 C1100 275, 1250 315, 1380 285" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="6" fill="none" stroke-linecap="round"></path>
+
+  <!-- Title overlay hint -->
+  <text x="70" y="920" fill="#ffffff" fill-opacity="0.70" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="44">
+    Winter Hiking &amp; Mountaineering
+  </text>
+  <text x="72" y="965" fill="#ffffff" fill-opacity="0.50" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="22">
+    Safety-first • Cost-effective • Built for friends &amp; partners
+  </text>
+</svg>
