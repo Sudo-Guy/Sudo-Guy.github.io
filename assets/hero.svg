@@ -1,41 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0b1220"></stop>
-      <stop offset="1" stop-color="#0f1b33"></stop>
+    <linearGradient id="sky" x1="600" y1="0" x2="600" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12294B"/>
+      <stop offset="0.55" stop-color="#406B8D"/>
+      <stop offset="1" stop-color="#E4EEF5"/>
     </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7dd3fc" stop-opacity="0.45"></stop>
-      <stop offset="1" stop-color="#a7f3d0" stop-opacity="0.30"></stop>
+    <linearGradient id="snow" x1="642" y1="378" x2="647" y2="858" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#A9C2D3"/>
+    </linearGradient>
+    <linearGradient id="ridge" x1="282" y1="343" x2="430" y2="709" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#36556E"/>
+      <stop offset="1" stop-color="#102131"/>
+    </linearGradient>
+    <linearGradient id="pine" x1="845" y1="524" x2="845" y2="744" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B3742"/>
+      <stop offset="1" stop-color="#071017"/>
     </linearGradient>
   </defs>
-
-  <rect width="1600" height="1000" fill="url(#sky)"></rect>
-  <circle cx="280" cy="220" r="230" fill="url(#glow)"></circle>
-  <circle cx="1250" cy="180" r="260" fill="url(#glow)"></circle>
-
-  <!-- Distant mountains -->
-  <path d="M0 700 L240 520 L420 610 L640 430 L820 540 L1020 420 L1240 580 L1460 470 L1600 560 L1600 1000 L0 1000 Z" fill="#0a1020" opacity="0.75"></path>
-
-  <!-- Main ridge -->
-  <path d="M0 820 L220 640 L380 720 L520 590 L700 760 L860 520 L1020 680 L1200 560 L1360 700 L1600 600 L1600 1000 L0 1000 Z" fill="#0a0f1d" opacity="0.9"></path>
-
-  <!-- Snow caps -->
-  <path d="M220 640 L280 690 L380 720 L320 650 Z" fill="#dbeafe" opacity="0.9"></path>
-  <path d="M520 590 L585 655 L700 760 L610 615 Z" fill="#dbeafe" opacity="0.9"></path>
-  <path d="M860 520 L930 600 L1020 680 L950 560 Z" fill="#dbeafe" opacity="0.9"></path>
-  <path d="M1200 560 L1265 625 L1360 700 L1285 585 Z" fill="#dbeafe" opacity="0.9"></path>
-
-  <!-- Subtle wind lines -->
-  <path d="M250 300 C380 270, 520 310, 650 280" stroke="#7dd3fc" stroke-opacity="0.18" stroke-width="6" fill="none" stroke-linecap="round"></path>
-  <path d="M420 360 C560 330, 700 370, 860 340" stroke="#a7f3d0" stroke-opacity="0.14" stroke-width="6" fill="none" stroke-linecap="round"></path>
-  <path d="M980 300 C1100 275, 1250 315, 1380 285" stroke="#7dd3fc" stroke-opacity="0.14" stroke-width="6" fill="none" stroke-linecap="round"></path>
-
-  <!-- Title overlay hint -->
-  <text x="70" y="920" fill="#ffffff" fill-opacity="0.70" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="44">
-    Winter Hiking &amp; Mountaineering
-  </text>
-  <text x="72" y="965" fill="#ffffff" fill-opacity="0.50" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="22">
-    Safety-first • Cost-effective • Built for friends &amp; partners
-  </text>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="830" cy="168" r="72" fill="#FFDCA8" fill-opacity="0.8"/>
+  <path d="M0 488C154 437 293 411 417 411C552 411 685 461 808 461C911 461 1041 421 1200 335V900H0V488Z" fill="#D9E8F2"/>
+  <path d="M0 545C152 485 308 476 468 487C623 498 769 548 898 548C1013 548 1114 515 1200 455V900H0V545Z" fill="#C0D6E3"/>
+  <path d="M143 526L399 264L653 526H143Z" fill="url(#ridge)"/>
+  <path d="M482 528L725 331L975 528H482Z" fill="#274255"/>
+  <path d="M400 264L486 334L527 332L399 264Z" fill="#F8FCFF"/>
+  <path d="M514 408L613 330L725 431L720 528H482L514 408Z" fill="url(#snow)"/>
+  <path d="M128 615C225 595 320 606 412 634C510 664 613 697 732 697C857 697 1039 634 1200 546V900H128V615Z" fill="#EAF2F7"/>
+  <path d="M0 691C170 655 322 659 454 696C568 728 687 776 818 776C938 776 1065 746 1200 688V900H0V691Z" fill="#D2E1EB"/>
+  <path d="M156 729L267 585L337 729H156Z" fill="url(#pine)"/>
+  <path d="M860 746L960 579L1042 746H860Z" fill="url(#pine)"/>
+  <path d="M894 746L991 616L1075 746H894Z" fill="#11202B"/>
+  <path d="M259 744L343 623L417 744H259Z" fill="#11202B"/>
+  <path d="M562 785C594 736 629 689 657 689C680 689 700 707 726 744L742 900H532L562 785Z" fill="#233847"/>
+  <path d="M637 673C648 673 659 681 670 698L649 734L627 695C629 684 632 673 637 673Z" fill="#D7633D"/>
+  <path d="M603 744L637 695L674 744H603Z" fill="#12212E"/>
+  <path d="M630 734H645V792H630V734Z" fill="#13222D"/>
+  <path d="M618 789C618 774 626 762 637 762C648 762 657 774 657 789V900H618V789Z" fill="#0C1821"/>
+  <path d="M561 829C650 805 727 802 811 829" stroke="#B7CFDC" stroke-width="10" stroke-linecap="round" stroke-opacity="0.8"/>
+  <path d="M760 505C840 494 907 468 975 412" stroke="#F7FBFF" stroke-width="8" stroke-linecap="round" stroke-opacity="0.45"/>
 </svg>

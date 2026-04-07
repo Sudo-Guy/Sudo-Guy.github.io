@@ -22,9 +22,9 @@
 
       <nav class="navlinks" aria-label="Primary navigation">
         <a href="index.html" data-page="index.html">Home</a>
+        <a href="planning.html" data-page="planning.html">Planning</a>
         <a href="gear.html" data-page="gear.html">Gear</a>
         <a href="skills.html" data-page="skills.html">Skills</a>
-        <a href="planning.html" data-page="planning.html">Planning</a>
         <a href="safety.html" data-page="safety.html">Safety</a>
         <a href="resources.html" data-page="resources.html">Resources</a>
       </nav>
@@ -34,35 +34,113 @@
   <main id="main" class="container">
     <section class="card section">
       <h3>Resources</h3>
+      <p>
+        This page holds the templates, links, and next-step materials that support the rest of the site.
+      </p>
     </section>
 
     <section class="grid">
+      <div id="trailhead-discussion" class="card section col-7">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Talk With Me</p>
+            <h3>Trailhead Discussion Board</h3>
+            <p>
+              I use GitHub Issues as the discussion space for this project so I can moderate replies and
+              keep feedback organized. Answer the prompt below and the button will open a prefilled issue in this repo.
+            </p>
+          </div>
+        </div>
+
+        <form class="discussion-form" data-discussion-form data-issue-base="https://github.com/Sudo-Guy/Sudo-Guy.github.io/issues/new">
+          <fieldset class="poll-group">
+            <legend>Which topic should this site cover next?</legend>
+            <div class="choice-grid">
+              <label class="choice-chip"><input type="radio" name="topic" value="Trip planning and weather systems" checked />Trip planning</label>
+              <label class="choice-chip"><input type="radio" name="topic" value="Budget-friendly gear choices" />Gear choices</label>
+              <label class="choice-chip"><input type="radio" name="topic" value="Skills practice and drills" />Skills practice</label>
+              <label class="choice-chip"><input type="radio" name="topic" value="Safety systems and emergency prep" />Safety systems</label>
+            </div>
+          </fieldset>
+
+          <label class="form-label">
+            <span>How experienced are you with winter hiking?</span>
+            <select name="experience">
+              <option value="Curious beginner" selected>Curious beginner</option>
+              <option value="Some winter day hikes">Some winter day hikes</option>
+              <option value="Regular winter hiker">Regular winter hiker</option>
+              <option value="Working toward mountaineering objectives">Working toward mountaineering objectives</option>
+            </select>
+          </label>
+
+          <label class="form-label">
+            <span>Answer this question for me: what feels most uncertain right now?</span>
+            <textarea name="details" rows="6" placeholder="Example: I am comfortable hiking in snow, but I still struggle with when to switch from spikes to crampons and how to set a turnaround time." required></textarea>
+          </label>
+
+          <label class="form-label">
+            <span>Name or handle (optional)</span>
+            <input type="text" name="name" placeholder="Leave blank if you want to stay general" />
+          </label>
+
+          <div class="discussion-actions">
+            <button class="btn primary" type="submit">Open Prefilled GitHub Issue</button>
+            <a class="btn" data-discussion-preview-link href="https://github.com/Sudo-Guy/Sudo-Guy.github.io/issues/new" target="_blank" rel="noreferrer">Open Current Preview</a>
+          </div>
+
+          <p class="small">
+            This is the site's interactive feature. It is public and moderated through GitHub, which lets me keep
+            administrative control over the conversation while still inviting direct feedback from viewers.
+          </p>
+        </form>
+      </div>
+
+      <div class="card section col-5">
+        <p class="eyebrow">Visitor Prompt</p>
+        <h3>Question I want answered</h3>
+        <p>
+          What part of winter hiking feels most uncertain right now, and what would make this site more useful for you?
+        </p>
+        <ul class="list compact-list">
+          <li><strong>Planning</strong><span>Forecasts, route choices, daylight margins, and turnaround times.</span></li>
+          <li><strong>Gear</strong><span>Layering systems, traction choices, and where spending money matters most.</span></li>
+          <li><strong>Skills</strong><span>Navigation habits, pacing, temperature control, and partner communication.</span></li>
+          <li><strong>Safety</strong><span>Emergency planning, cold injury prevention, and conservative decision-making.</span></li>
+        </ul>
+
+        <div class="issue-preview" aria-live="polite">
+          <p class="eyebrow">Live Preview</p>
+          <h3 data-discussion-preview-title>Trailhead discussion: Trip planning and weather systems</h3>
+          <pre class="preview-panel" data-discussion-preview-body></pre>
+        </div>
+      </div>
+
       <div class="card section col-6">
-        <h3>Templates (ready to add)</h3>
+        <h3>Templates</h3>
         <ul class="list">
-          <li><strong>Trip plan</strong><span>Add a Google Doc link or paste a printable version.</span></li>
-          <li><strong>Gear checklist</strong><span>Seasonal checklist + “must-have vs nice-to-have.”</span></li>
-          <li><strong>Partner briefing</strong><span>Shared rules, roles, and emergency plan.</span></li>
+          <li><strong>Trip plan</strong><span>Add a printable template or a shared planning document.</span></li>
+          <li><strong>Gear checklist</strong><span>Separate must-have items from nice-to-have upgrades.</span></li>
+          <li><strong>Partner briefing</strong><span>Standardize rules, roles, emergency contacts, and vehicle plans.</span></li>
         </ul>
       </div>
 
       <div class="card section col-6">
         <h3>Learning roadmap</h3>
         <ul class="list">
-          <li><strong>Start</strong><span>Low-exposure hikes, layering practice, navigation basics.</span></li>
-          <li><strong>Build</strong><span>Steeper terrain, crampon transitions, stronger planning habits.</span></li>
-          <li><strong>Advance</strong><span>Mentored routes, formal instruction, conservative objective selection.</span></li>
+          <li><strong>Start</strong><span>Low-exposure hikes, layering practice, and navigation basics.</span></li>
+          <li><strong>Build</strong><span>Steeper terrain, traction transitions, and stronger planning habits.</span></li>
+          <li><strong>Advance</strong><span>Mentored routes, formal instruction, and conservative objective progression.</span></li>
         </ul>
       </div>
 
       <div class="card section col-12">
-        <h3>Link placeholders</h3>
-        <p class="small">Replace these placeholders with your actual curated links.</p>
+        <h3>Curated links to add next</h3>
+        <p class="small">This section is ready for your actual sources and class links.</p>
         <ul class="list">
-          <li><strong>Weather + mountain forecasts</strong><span>[Add links used for wind/temperature/precip checks]</span></li>
-          <li><strong>Trail conditions reports</strong><span>[Add links used for recent ice/snow beta]</span></li>
-          <li><strong>Navigation tools</strong><span>[Add offline map apps and printing tools]</span></li>
-          <li><strong>Local orgs / classes</strong><span>[Add instruction providers and safety education]</span></li>
+          <li><strong>Weather and mountain forecasts</strong><span>Add the forecast tools you trust for wind, temperature, and precipitation.</span></li>
+          <li><strong>Trail condition reports</strong><span>Add current-condition sources for ice, snow depth, and access notes.</span></li>
+          <li><strong>Navigation tools</strong><span>Add offline map apps, GPX tools, and printable map resources.</span></li>
+          <li><strong>Local organizations or classes</strong><span>Add instruction providers, avalanche education, and mountain safety programs.</span></li>
         </ul>
       </div>
     </section>
@@ -70,7 +148,7 @@
 
   <footer class="footer">
     <div class="container">
-      <div>© <span id="year"></span> Winter Hiking & Mountaineering.</div>
+      <div>&copy; <span id="year"></span> Winter Hiking & Mountaineering.</div>
     </div>
   </footer>
 
