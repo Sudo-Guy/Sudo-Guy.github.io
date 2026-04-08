@@ -40,78 +40,20 @@
     </section>
 
     <section class="grid">
-      <div id="trailhead-discussion" class="card section col-7">
+      <div class="card section col-12">
         <div class="section-head">
           <div>
-            <p class="eyebrow">Talk With Me</p>
-            <h3>Trailhead Discussion Board</h3>
+            <p class="eyebrow">Community Feedback</p>
+            <h3>Trailhead Discussion lives on the home page</h3>
             <p>
-              I use GitHub Issues as the discussion space for this project so I can moderate replies and
-              keep feedback organized. Answer the prompt below and the button will open a prefilled issue in this repo.
+              The main discussion form is now on the front page so visitors can respond immediately.
+              Use the links here if you want to jump back to the form or browse the public replies in GitHub.
             </p>
           </div>
-        </div>
-
-        <form class="discussion-form" data-discussion-form data-issue-base="https://github.com/Sudo-Guy/Sudo-Guy.github.io/issues/new">
-          <fieldset class="poll-group">
-            <legend>Which topic should this site cover next?</legend>
-            <div class="choice-grid">
-              <label class="choice-chip"><input type="radio" name="topic" value="Trip planning and weather systems" checked />Trip planning</label>
-              <label class="choice-chip"><input type="radio" name="topic" value="Budget-friendly gear choices" />Gear choices</label>
-              <label class="choice-chip"><input type="radio" name="topic" value="Skills practice and drills" />Skills practice</label>
-              <label class="choice-chip"><input type="radio" name="topic" value="Safety systems and emergency prep" />Safety systems</label>
-            </div>
-          </fieldset>
-
-          <label class="form-label">
-            <span>How experienced are you with winter hiking?</span>
-            <select name="experience">
-              <option value="Curious beginner" selected>Curious beginner</option>
-              <option value="Some winter day hikes">Some winter day hikes</option>
-              <option value="Regular winter hiker">Regular winter hiker</option>
-              <option value="Working toward mountaineering objectives">Working toward mountaineering objectives</option>
-            </select>
-          </label>
-
-          <label class="form-label">
-            <span>Answer this question for me: what feels most uncertain right now?</span>
-            <textarea name="details" rows="6" placeholder="Example: I am comfortable hiking in snow, but I still struggle with when to switch from spikes to crampons and how to set a turnaround time." required></textarea>
-          </label>
-
-          <label class="form-label">
-            <span>Name or handle (optional)</span>
-            <input type="text" name="name" placeholder="Leave blank if you want to stay general" />
-          </label>
-
           <div class="discussion-actions">
-            <button class="btn primary" type="submit">Open Prefilled GitHub Issue</button>
-            <a class="btn" data-discussion-preview-link href="https://github.com/Sudo-Guy/Sudo-Guy.github.io/issues/new" target="_blank" rel="noreferrer">Open Current Preview</a>
+            <a class="btn primary" href="index.html#trailhead-discussion">Open Home Page Form</a>
+            <a class="btn" href="https://github.com/Sudo-Guy/Sudo-Guy.github.io/issues?q=is%3Aissue+Trailhead+discussion" target="_blank" rel="noreferrer">View Public Replies</a>
           </div>
-
-          <p class="small">
-            This is the site's interactive feature. It is public and moderated through GitHub, which lets me keep
-            administrative control over the conversation while still inviting direct feedback from viewers.
-          </p>
-        </form>
-      </div>
-
-      <div class="card section col-5">
-        <p class="eyebrow">Visitor Prompt</p>
-        <h3>Question I want answered</h3>
-        <p>
-          What part of winter hiking feels most uncertain right now, and what would make this site more useful for you?
-        </p>
-        <ul class="list compact-list">
-          <li><strong>Planning</strong><span>Forecasts, route choices, daylight margins, and turnaround times.</span></li>
-          <li><strong>Gear</strong><span>Layering systems, traction choices, and where spending money matters most.</span></li>
-          <li><strong>Skills</strong><span>Navigation habits, pacing, temperature control, and partner communication.</span></li>
-          <li><strong>Safety</strong><span>Emergency planning, cold injury prevention, and conservative decision-making.</span></li>
-        </ul>
-
-        <div class="issue-preview" aria-live="polite">
-          <p class="eyebrow">Live Preview</p>
-          <h3 data-discussion-preview-title>Trailhead discussion: Trip planning and weather systems</h3>
-          <pre class="preview-panel" data-discussion-preview-body></pre>
         </div>
       </div>
 

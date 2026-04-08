@@ -274,6 +274,9 @@ main{ padding: 28px 0 60px; }
   display:grid;
   gap: 14px;
 }
+.discussion-form .small{
+  margin: 0;
+}
 
 .poll-group{
   margin: 0;
@@ -338,6 +341,13 @@ main{ padding: 28px 0 60px; }
   color: var(--text);
   font: inherit;
 }
+.discussion-form input[type="text"]:focus,
+.discussion-form select:focus,
+.discussion-form textarea:focus{
+  outline: 2px solid rgba(125,211,252,0.35);
+  outline-offset: 1px;
+  border-color: rgba(125,211,252,0.42);
+}
 .discussion-form textarea{
   resize: vertical;
   min-height: 120px;
@@ -346,6 +356,9 @@ main{ padding: 28px 0 60px; }
 .discussion-form textarea::placeholder{
   color: var(--faint);
 }
+.discussion-form select option{
+  color: #0b1220;
+}
 
 .discussion-actions{
   display:flex;
@@ -353,19 +366,50 @@ main{ padding: 28px 0 60px; }
   gap: 10px;
 }
 
-.issue-preview{
-  margin-top: 16px;
-  padding: 16px;
+.discussion-feed-panel{
+  display:grid;
+  gap: 14px;
+}
+
+.discussion-feed{
+  display:grid;
+  gap: 10px;
+}
+
+.discussion-item{
+  padding: 14px;
   border: 1px solid rgba(255,255,255,0.12);
   border-radius: 16px;
   background: rgba(255,255,255,0.04);
 }
-.preview-panel{
-  margin: 10px 0 0;
-  white-space: pre-wrap;
+.discussion-item h4{
+  margin: 0;
+  font-size: 14px;
+}
+.discussion-item h4 a{
+  text-decoration: none;
+}
+.discussion-item h4 a:hover{
+  text-decoration: underline;
+}
+.discussion-meta{
+  margin: 6px 0 0;
+  color: var(--faint);
+  font-size: 12px;
+}
+.discussion-excerpt{
+  margin: 8px 0 0;
   color: var(--muted);
   font-size: 13px;
-  font-family: Consolas, "Courier New", monospace;
+}
+.discussion-note{
+  margin-top: 0;
+}
+.discussion-empty{
+  padding: 14px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px dashed rgba(255,255,255,0.16);
 }
 
 .list{

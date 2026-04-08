@@ -105,24 +105,66 @@
         </p>
       </div>
 
-      <div class="card section col-12 discussion-promo">
-        <div class="section-head">
-          <div>
-            <p class="eyebrow">Interactive Feature</p>
-            <h3>Trailhead Discussion</h3>
-            <p>
-              Help shape the next updates to this site. I am asking every visitor the same question:
-              <b>what part of winter hiking feels most uncertain right now?</b> Use the guided prompt to
-              send me a prefilled GitHub issue that I can review and respond to directly.
-            </p>
+      <div id="trailhead-discussion" class="card section col-7 discussion-promo">
+        <p class="eyebrow">Interactive Feature</p>
+        <h3>Trailhead Discussion</h3>
+        <p>
+          Answer the question below right here on the home page. When you click post, GitHub opens with your
+          response already filled in so I can review it, moderate it, and reply publicly.
+        </p>
+
+        <form class="discussion-form" data-discussion-form data-issue-base="https://github.com/Sudo-Guy/Sudo-Guy.github.io/issues/new">
+          <fieldset class="poll-group">
+            <legend>Which topic should this site cover next?</legend>
+            <div class="choice-grid">
+              <label class="choice-chip"><input type="radio" name="topic" value="Trip planning and weather systems" checked />Trip planning</label>
+              <label class="choice-chip"><input type="radio" name="topic" value="Budget-friendly gear choices" />Gear choices</label>
+              <label class="choice-chip"><input type="radio" name="topic" value="Skills practice and drills" />Skills practice</label>
+              <label class="choice-chip"><input type="radio" name="topic" value="Safety systems and emergency prep" />Safety systems</label>
+            </div>
+          </fieldset>
+
+          <label class="form-label">
+            <span>How experienced are you with winter hiking?</span>
+            <select name="experience">
+              <option value="Curious beginner" selected>Curious beginner</option>
+              <option value="Some winter day hikes">Some winter day hikes</option>
+              <option value="Regular winter hiker">Regular winter hiker</option>
+              <option value="Working toward mountaineering objectives">Working toward mountaineering objectives</option>
+            </select>
+          </label>
+
+          <label class="form-label">
+            <span>What feels most uncertain right now?</span>
+            <textarea name="details" rows="5" placeholder="Example: I am comfortable hiking in snow, but I still struggle with when to switch from spikes to crampons and how to set a turnaround time." required></textarea>
+          </label>
+
+          <label class="form-label">
+            <span>Name or handle (optional)</span>
+            <input type="text" name="name" placeholder="Leave blank if you want to stay general" />
+          </label>
+
+          <div class="discussion-actions">
+            <button class="btn primary" type="submit">Continue to GitHub to Post</button>
+            <a class="btn" data-discussion-preview-link href="https://github.com/Sudo-Guy/Sudo-Guy.github.io/issues/new" target="_blank" rel="noreferrer">Open GitHub Draft</a>
           </div>
-          <a class="btn primary" href="resources.html#trailhead-discussion">Join the Discussion</a>
+
+          <p class="small">
+            Your response is public and stays under my control through this repo's issue tracker.
+          </p>
+          <p class="small" data-discussion-submit-note></p>
+        </form>
+      </div>
+
+      <div class="card section col-5 discussion-feed-panel">
+        <p class="eyebrow">Recent Replies</p>
+        <h3>Latest visitor questions</h3>
+        <p class="small" data-discussion-status>Loading public replies from GitHub...</p>
+        <div class="discussion-feed" data-discussion-list></div>
+        <div class="note discussion-note" role="note">
+          <b>Admin control:</b> I review the public posts in GitHub Issues, so I can organize feedback and respond in one place.
         </div>
-        <ul class="list compact-list">
-          <li><strong>Why I added this</strong><span>It gives viewers a clear way to interact with me instead of just reading passively.</span></li>
-          <li><strong>How I manage it</strong><span>Responses go through this repo's GitHub Issues page, so I can moderate, organize, and reply in one place.</span></li>
-          <li><strong>What to send</strong><span>Share your biggest planning, gear, skills, or safety question so I know what to build next.</span></li>
-        </ul>
+        <a class="btn" href="https://github.com/Sudo-Guy/Sudo-Guy.github.io/issues?q=is%3Aissue+Trailhead+discussion" target="_blank" rel="noreferrer">View All Public Replies</a>
       </div>
     </section>
   </main>
