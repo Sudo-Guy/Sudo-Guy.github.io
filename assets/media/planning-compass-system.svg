@@ -1,0 +1,41 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#11263f"/>
+      <stop offset="1" stop-color="#2b5f79"/>
+    </linearGradient>
+    <linearGradient id="snow" x1="650" y1="190" x2="650" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#bed4e3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="36" fill="url(#bg)"/>
+  <circle cx="930" cy="170" r="66" fill="#ffe0a8" fill-opacity=".9"/>
+  <path d="M60 570L330 300L580 570H60Z" fill="#16344d"/>
+  <path d="M360 560L670 190L980 560H360Z" fill="#203f56"/>
+  <path d="M540 340L670 190L815 366L790 560H430L540 340Z" fill="url(#snow)"/>
+  <path d="M0 610C150 565 286 548 420 560C582 575 703 640 846 640C975 640 1090 609 1200 540V800H0V610Z" fill="#d5e5ef"/>
+  <path d="M0 690C140 650 290 646 425 676C572 708 706 760 853 760C983 760 1098 736 1200 690V800H0V690Z" fill="#bed3e0"/>
+  <circle cx="215" cy="205" r="126" fill="none" stroke="#cfe6f3" stroke-width="10" stroke-opacity=".9"/>
+  <circle cx="215" cy="205" r="96" fill="none" stroke="#8fc7de" stroke-width="2" stroke-dasharray="10 10"/>
+  <path d="M215 82V328" stroke="#cfe6f3" stroke-width="6" stroke-linecap="round"/>
+  <path d="M92 205H338" stroke="#cfe6f3" stroke-width="6" stroke-linecap="round"/>
+  <path d="M215 110L247 205L215 300L183 205L215 110Z" fill="#f97316"/>
+  <path d="M215 132L236 205L215 278L194 205L215 132Z" fill="#fff5ea"/>
+  <g fill="#e9f7ff" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">
+    <text x="204" y="56">N</text>
+    <text x="350" y="215">E</text>
+    <text x="205" y="395">S</text>
+    <text x="48" y="215">W</text>
+  </g>
+  <path d="M125 640C170 590 224 560 280 548C339 535 378 506 420 468C482 413 530 408 592 432C653 456 678 484 718 467C776 442 789 381 846 322C894 273 949 253 1010 266" fill="none" stroke="#7dd3fc" stroke-width="10" stroke-linecap="round" stroke-dasharray="12 18"/>
+  <circle cx="1008" cy="268" r="14" fill="#7dd3fc"/>
+  <rect x="80" y="590" width="144" height="48" rx="24" fill="#102131" stroke="#7dd3fc" stroke-opacity=".45"/>
+  <rect x="304" y="534" width="128" height="48" rx="24" fill="#102131" stroke="#7dd3fc" stroke-opacity=".45"/>
+  <rect x="880" y="230" width="118" height="48" rx="24" fill="#102131" stroke="#7dd3fc" stroke-opacity=".45"/>
+  <g fill="#eaf7ff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">
+    <text x="112" y="622">Forecast</text>
+    <text x="338" y="566">Route</text>
+    <text x="907" y="262">Bailout</text>
+  </g>
+</svg>

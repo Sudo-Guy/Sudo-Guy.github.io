@@ -1,0 +1,36 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102034"/>
+      <stop offset="1" stop-color="#314f69"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="36" fill="url(#bg)"/>
+  <rect x="426" y="212" width="348" height="408" rx="42" fill="#173149" stroke="#7dd3fc" stroke-opacity=".4" stroke-width="6"/>
+  <rect x="498" y="160" width="204" height="86" rx="30" fill="#173149" stroke="#7dd3fc" stroke-opacity=".4" stroke-width="6"/>
+  <rect x="498" y="274" width="204" height="168" rx="28" fill="#0d2234"/>
+  <path d="M555 358H645" stroke="#f97316" stroke-width="18" stroke-linecap="round"/>
+  <path d="M600 313V403" stroke="#f97316" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="336" cy="308" r="78" fill="#132a3d" stroke="#7dd3fc" stroke-opacity=".45"/>
+  <rect x="294" y="274" width="84" height="68" rx="20" fill="#dbeaf3"/>
+  <path d="M314 342L330 292L348 342" stroke="#0d2234" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="866" cy="308" r="78" fill="#132a3d" stroke="#7dd3fc" stroke-opacity=".45"/>
+  <path d="M834 338C834 290 864 258 906 258V338H834Z" fill="#dbeaf3"/>
+  <path d="M906 338C906 290 876 258 834 258V338H906Z" fill="#a7f3d0"/>
+  <circle cx="336" cy="518" r="78" fill="#132a3d" stroke="#7dd3fc" stroke-opacity=".45"/>
+  <path d="M300 482H372V554H300Z" fill="#dbeaf3"/>
+  <path d="M316 514H356" stroke="#0d2234" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="866" cy="518" r="78" fill="#132a3d" stroke="#7dd3fc" stroke-opacity=".45"/>
+  <path d="M832 554L866 474L900 554H832Z" fill="#dbeaf3"/>
+  <circle cx="866" cy="472" r="18" fill="#f97316"/>
+  <g fill="#f3fbff" font-family="Segoe UI, Arial, sans-serif">
+    <text x="106" y="118" font-size="46" font-weight="700">Emergency kit visual</text>
+    <text x="106" y="166" font-size="28" fill="#bdd6e4">I included this site-made image because safety gear is easier to remember when it is grouped by job, not by brand.</text>
+  </g>
+  <g fill="#f3fbff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">
+    <text x="336" y="618">Shelter</text>
+    <text x="866" y="618">Fire</text>
+    <text x="336" y="408">Light</text>
+    <text x="866" y="408">Navigation</text>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081521"/>
+      <stop offset="1" stop-color="#17344c"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="280" y1="320" x2="840" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fde68a" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#fde68a" stop-opacity=".08"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="36" fill="url(#bg)"/>
+  <circle cx="200" cy="188" r="62" fill="#fef3c7" fill-opacity=".85"/>
+  <rect x="146" y="286" width="176" height="110" rx="28" fill="#dbeaf3"/>
+  <circle cx="206" cy="341" r="20" fill="#0f2234"/>
+  <circle cx="262" cy="341" r="20" fill="#0f2234"/>
+  <path d="M322 320L872 178L872 574L322 396Z" fill="url(#beam)"/>
+  <rect x="782" y="406" width="182" height="218" rx="26" fill="#1c3d55" stroke="#7dd3fc" stroke-opacity=".38"/>
+  <rect x="820" y="438" width="106" height="96" rx="20" fill="#0f2234"/>
+  <path d="M828 584C848 560 876 548 908 548C939 548 966 560 984 584" stroke="#f97316" stroke-width="14" stroke-linecap="round"/>
+  <path d="M618 504C618 470 642 444 674 444C708 444 732 470 732 504V580H618V504Z" fill="#dbeaf3"/>
+  <path d="M596 580H754" stroke="#7dd3fc" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="514" cy="550" r="48" fill="#dbeaf3"/>
+  <circle cx="582" cy="550" r="48" fill="#dbeaf3"/>
+  <g fill="#f3fbff" font-family="Segoe UI, Arial, sans-serif">
+    <text x="126" y="110" font-size="46" font-weight="700">Night and cold-weather backup kit</text>
+    <text x="126" y="158" font-size="28" fill="#b8d2e0">I use this visual to remember that light, warmth, and spare layers all belong in the same conversation.</text>
+    <text x="490" y="650" font-size="26" font-weight="600">Spare mitts</text>
+    <text x="632" y="650" font-size="26" font-weight="600">Stop layer</text>
+    <text x="782" y="650" font-size="26" font-weight="600">Pack light</text>
+  </g>
+</svg>

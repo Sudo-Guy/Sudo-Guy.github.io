@@ -1,0 +1,32 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102237"/>
+      <stop offset="1" stop-color="#28556e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="36" fill="url(#bg)"/>
+  <path d="M0 640C195 565 375 550 540 582C688 611 857 690 1012 690C1079 690 1142 678 1200 650V800H0V640Z" fill="#dbe8f1"/>
+  <path d="M295 548C325 500 358 462 382 462C401 462 420 478 443 514L454 800H264L295 548Z" fill="#183147"/>
+  <path d="M345 444C360 444 374 456 387 476L362 511L336 474C338 463 341 444 345 444Z" fill="#f97316"/>
+  <path d="M748 548C778 500 811 462 835 462C854 462 873 478 896 514L907 800H717L748 548Z" fill="#183147"/>
+  <path d="M798 444C813 444 827 456 840 476L815 511L789 474C791 463 794 444 798 444Z" fill="#f97316"/>
+  <path d="M438 520C494 484 546 468 603 468C662 468 712 486 768 520" fill="none" stroke="#7dd3fc" stroke-width="10" stroke-linecap="round" stroke-dasharray="10 16"/>
+  <g>
+    <circle cx="521" cy="332" r="72" fill="#132a3d" stroke="#7dd3fc" stroke-opacity=".45"/>
+    <circle cx="603" cy="242" r="72" fill="#132a3d" stroke="#7dd3fc" stroke-opacity=".45"/>
+    <circle cx="685" cy="332" r="72" fill="#132a3d" stroke="#7dd3fc" stroke-opacity=".45"/>
+    <path d="M492 331L514 354L554 308" stroke="#a7f3d0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M575 242L597 265L637 219" stroke="#a7f3d0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M656 331L678 354L718 308" stroke="#a7f3d0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g fill="#f3fbff" font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <text x="521" y="340" font-size="28" font-weight="700">Pace</text>
+    <text x="603" y="250" font-size="28" font-weight="700">Layers</text>
+    <text x="685" y="340" font-size="25" font-weight="700">Turn-around</text>
+  </g>
+  <g fill="#f3fbff" font-family="Segoe UI, Arial, sans-serif">
+    <text x="110" y="118" font-size="46" font-weight="700">Partner check-ins keep winter trips calm</text>
+    <text x="110" y="166" font-size="28" fill="#bdd6e4">I made this graphic to show that strong communication is as important as any piece of equipment.</text>
+  </g>
+</svg>

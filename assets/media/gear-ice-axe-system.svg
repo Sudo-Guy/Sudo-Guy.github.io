@@ -1,0 +1,25 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b1d2f"/>
+      <stop offset="1" stop-color="#274a66"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="36" fill="url(#bg)"/>
+  <path d="M0 650L360 420L1200 800H0V650Z" fill="#dceaf3"/>
+  <path d="M0 730L315 532L1040 800H0V730Z" fill="#c0d4e1"/>
+  <path d="M690 206C706 190 734 190 750 206L774 230C790 246 790 274 774 290L736 328L702 294L690 206Z" fill="#dfe9f1"/>
+  <path d="M736 328L802 396C818 412 818 439 802 455L780 477C764 493 738 493 722 477L654 409L736 328Z" fill="#dfe9f1"/>
+  <path d="M718 246L564 400" stroke="#f97316" stroke-width="28" stroke-linecap="round"/>
+  <path d="M568 398L468 498" stroke="#f97316" stroke-width="22" stroke-linecap="round"/>
+  <path d="M470 498L430 538" stroke="#f97316" stroke-width="20" stroke-linecap="round"/>
+  <path d="M764 258C822 272 872 321 890 383" stroke="#7dd3fc" stroke-width="12" stroke-linecap="round" stroke-dasharray="8 18"/>
+  <circle cx="890" cy="383" r="12" fill="#7dd3fc"/>
+  <g fill="#f3fbff" font-family="Segoe UI, Arial, sans-serif">
+    <text x="132" y="158" font-size="48" font-weight="700">Ice axe skills graphic</text>
+    <text x="132" y="210" font-size="28" fill="#bcd7e6">Balance, self-belay, and self-arrest only work if the tool is paired with real practice.</text>
+    <text x="910" y="350" font-size="24" font-weight="600">Pick and adze</text>
+    <text x="520" y="460" font-size="24" font-weight="600">Shaft control</text>
+    <text x="384" y="566" font-size="24" font-weight="600">Spike placement</text>
+  </g>
+</svg>

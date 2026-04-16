@@ -1,0 +1,57 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0e1f33"/>
+      <stop offset="1" stop-color="#1d4964"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="36" fill="url(#bg)"/>
+  <g stroke="#9ed8ee" stroke-opacity=".45">
+    <path d="M100 120H1100"/>
+    <path d="M100 680H1100"/>
+  </g>
+  <g>
+    <rect x="84" y="170" width="310" height="430" rx="28" fill="#11283c" stroke="#7dd3fc" stroke-opacity=".28"/>
+    <rect x="445" y="170" width="310" height="430" rx="28" fill="#11283c" stroke="#7dd3fc" stroke-opacity=".28"/>
+    <rect x="806" y="170" width="310" height="430" rx="28" fill="#11283c" stroke="#7dd3fc" stroke-opacity=".28"/>
+  </g>
+  <g fill="#f3fbff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">
+    <text x="239" y="245">Spikes</text>
+    <text x="600" y="245">Crampons</text>
+    <text x="961" y="245">Snowshoes</text>
+  </g>
+  <path d="M172 410C172 345 214 296 281 296H334C348 296 360 308 360 322V404C360 442 330 472 292 472H212C190 472 172 454 172 432V410Z" fill="#dbeaf3"/>
+  <path d="M198 474H336" stroke="#7dd3fc" stroke-width="18" stroke-linecap="round"/>
+  <g fill="#f97316">
+    <path d="M214 486L228 520L242 486Z"/>
+    <path d="M248 486L262 520L276 486Z"/>
+    <path d="M282 486L296 520L310 486Z"/>
+    <path d="M316 486L330 520L344 486Z"/>
+  </g>
+  <path d="M528 400C528 330 570 282 639 282H704C718 282 730 294 730 308V416C730 460 694 496 650 496H566C545 496 528 479 528 458V400Z" fill="#dbeaf3"/>
+  <path d="M550 505H728" stroke="#7dd3fc" stroke-width="18" stroke-linecap="round"/>
+  <g fill="#f97316">
+    <path d="M560 516L574 560L588 516Z"/>
+    <path d="M596 516L610 560L624 516Z"/>
+    <path d="M632 516L646 560L660 516Z"/>
+    <path d="M668 516L682 560L696 516Z"/>
+    <path d="M704 516L718 560L732 516Z"/>
+    <path d="M574 472L590 438L606 472Z"/>
+    <path d="M626 472L642 438L658 472Z"/>
+    <path d="M678 472L694 438L710 472Z"/>
+  </g>
+  <ellipse cx="928" cy="424" rx="86" ry="126" fill="none" stroke="#dbeaf3" stroke-width="18"/>
+  <ellipse cx="994" cy="424" rx="86" ry="126" fill="none" stroke="#dbeaf3" stroke-width="18"/>
+  <path d="M875 348H1048" stroke="#7dd3fc" stroke-width="10" stroke-linecap="round"/>
+  <path d="M875 500H1048" stroke="#7dd3fc" stroke-width="10" stroke-linecap="round"/>
+  <g stroke="#f97316" stroke-width="8" stroke-linecap="round">
+    <path d="M905 334V514"/>
+    <path d="M960 312V536"/>
+    <path d="M1015 334V514"/>
+  </g>
+  <g fill="#b8d3e2" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="middle">
+    <text x="239" y="644">Low-angle ice</text>
+    <text x="600" y="644">Steeper snow</text>
+    <text x="961" y="644">Deep, soft snow</text>
+  </g>
+</svg>
