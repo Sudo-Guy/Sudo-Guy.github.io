@@ -437,6 +437,7 @@ main{ padding: 28px 0 60px; }
   border: 1px solid rgba(255,255,255,0.14);
   background: rgba(255,255,255,0.04);
   aspect-ratio: 16 / 10;
+  min-height: 240px;
   object-fit: cover;
 }
 .media-caption{
@@ -456,6 +457,14 @@ main{ padding: 28px 0 60px; }
 }
 .media-audio{
   width: 100%;
+}
+.media-placeholder{
+  padding: 16px 18px;
+  border-radius: 16px;
+  border: 1px dashed rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.04);
+  color: var(--muted);
+  font-size: 14px;
 }
 .embed-frame{
   position: relative;
